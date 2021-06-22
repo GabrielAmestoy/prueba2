@@ -1,0 +1,24 @@
+:root{
+    --color-amarillo: #EAC926;
+    --color-azul:#03264C;
+    --color-celeste:#1259C3;
+    --color-GrisOscuro:#666;
+    --color-GrisClaro:#EBEBEB;
+    --color-Verde:#39B54A;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto";
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+p{
+    font-family: "Roboto";
+    font-size: 12px;
+}

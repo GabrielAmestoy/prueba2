@@ -1,0 +1,188 @@
+.home{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+/* -------HEADER-------*/
+
+.home header{
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-amarillo);
+}
+.home .logo{
+    display: block;
+    width: 150px ;
+    padding: 30px 30px 0 30px;
+    margin:0;
+}
+.home img{
+    display: block;
+    width: 100%;
+    margin: auto;
+
+}
+.home .boton-menu{
+    display: block;
+    background-color: var(--color-celeste);
+    margin: auto;
+    color:#ffffff;
+    padding: 10px 15px;
+    border :none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.home header div{
+    padding: 20px;
+    font-family: "Roboto";
+}
+.home header .Compra-sin-tarjeta{
+    text-align:center;
+    padding: 20px;
+    font-family: "Roboto";
+}
+
+
+/*---------MAIN----------*/
+
+.home main{
+    margin:0;
+    padding-bottom: 10px;
+    background-color:var(--color-GrisClaro);
+
+}
+.home .banner img{
+    width: 100%;
+    height: 100%;
+
+}
+.home .banner{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+.home h2{
+    font-family:"Roboto";
+    color: var(--color-GrisOscuro);
+    font-size: 24px;
+}
+.home nav{
+    display: none;
+}
+
+.home .Visita-Oferta{
+    width:290px;
+    margin:auto;
+    padding: 15px;
+}
+.home main section{
+    background-color:var(--color-GrisClaro);
+    width:90%;
+    margin:auto; /*Centra cada producto(img y div) en mein*/
+}
+.home main section article{
+    width:100%;
+    height: 100%;
+    margin: 0 auto 10px auto;       /* Da un espaciado de arriba y abajo y Centra cada producto(img y div) en mein*/
+}
+
+
+.home main section article div {
+    padding:15px;
+    background-color:#ffffff;
+    border-top:solid 1px var(--color-GrisClaro);
+}
+.home main section article:last-child{
+    width:100%;
+    height: 100%;
+    margin: 0 auto 0px auto;       /*quito margin-bottom en el ultimo porqu no lo toma y agrego la distancia entre el main y footer desde el main*/
+}
+.home main section article div i {
+    color:var(--color-Verde);
+}
+
+.home .precios{
+    font-size: 18px;
+    margin: 0;
+}
+.home .descuentos{
+    font-size: 16px;
+    color:var(--color-Verde);
+    margin: 0;
+
+}
+.home .descripcion{
+    display: none;
+    margin:20px 0 0 0;
+    font-size: 16px;
+    color: var(--color-GrisOscuro);
+    font-family:"Roboto";
+}
+
+/*-------FOOTER-------*/
+
+.home footer {
+    font-family: "Roboto"; 
+    text-align: center;
+    margin:0;
+    padding:0px 35px;
+    background-color:#ffffff;
+    color: var(--color-GrisOscuro);
+
+}
+.home footer article{
+    margin-top: 40px;
+}
+.home footer i{
+    font-size: 2rem;
+    color: var(--color-celeste);;
+}
+.home footer h4{
+    margin-bottom: 0px;
+}
+.home footer p{
+    margin-top: 0px;
+}
+.home footer .Copyright {
+    margin-top: 40px;
+}
+/*-------TAblet-------*/
+@media (min-width:361px) {
+    .home .descripcion{
+        display: block;
+    }
+    .home main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .home nav{
+        display: block;
+    }
+    .home .boton-menu{
+        display: none;
+    }
+    .home .logo{
+        width: 250px ;
+    }
+}
+
+/*------Desktop-------*/
+@media (min-width:769px){
+    .home .descripcion{
+        display: block;
+    }
+    .home main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .home nav{
+        display: block;
+    }
+    .home .boton-menu{
+        display: none;
+    }
+    .home .logo{
+        width: 250px ;
+    }
+}
